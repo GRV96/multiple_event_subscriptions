@@ -14,15 +14,10 @@
 
             for(int i=0; i<nbSubscriptions; i++)
             {
-                reader.consoleInput += ProcessConsoleInput;
+                reader.consoleInput += Console.WriteLine;
             }
 
             reader.Start();
-        }
-
-        private static void ProcessConsoleInput(string pInput)
-        {
-            Console.WriteLine(pInput);
         }
     }
 }
