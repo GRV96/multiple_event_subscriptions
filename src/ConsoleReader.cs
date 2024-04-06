@@ -37,6 +37,7 @@
                 }
 
                 TriggerConsoleInput(input);
+                Console.WriteLine();
             }
         }
 

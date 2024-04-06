@@ -2,8 +2,6 @@
 {
     internal class Program
     {
-        private static string NEW_LINE = "\n";
-
         static void Main(string[] args)
         {
             int nbSubscriptions = 1;
@@ -22,16 +20,9 @@
             reader.Start();
         }
 
-        private static int ParseNbSubscriptions(string pArg)
-        {
-            int nbSubscriptions = 1;
-
-            return nbSubscriptions;
-        }
-
         private static void ProcessConsoleInput(string pInput)
         {
-            Console.WriteLine(pInput + NEW_LINE);
+            Console.WriteLine(pInput);
         }
     }
 }
