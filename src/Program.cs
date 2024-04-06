@@ -8,6 +8,7 @@
         {
             ConsoleReader reader = new ConsoleReader();
             reader.consoleInput += ProcessConsoleInput;
+            //reader.consoleInput += ProcessConsoleInput;
             reader.Start();
         }
 
