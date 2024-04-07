@@ -25,15 +25,10 @@
                 Console.Write(PROMPT);
                 string? input = Console.ReadLine();
 
-                if (input == null)
+                if (input == null || input == STR_LOWER_Q || input == STR_UPPER_Q)
                 {
                     Stop();
                     break;
-                }
-
-                if (input == STR_LOWER_Q || input == STR_UPPER_Q)
-                {
-                    Stop();
                 }
 
                 TriggerConsoleInput(input);

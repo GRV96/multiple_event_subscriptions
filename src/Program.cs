@@ -18,6 +18,7 @@
             }
 
             reader.Start();
+            Console.WriteLine();
         }
     }
 }
